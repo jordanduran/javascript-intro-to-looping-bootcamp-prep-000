@@ -18,10 +18,11 @@ function whileLoop(n) {
     return "done";
   }
 
-function doWhileLoop(array) {
-function incrementVariable() {
-  i = i + 1;
-  console.log("I run once regardless.");
+function doWhileLoop(array){
+do {
+  array.pop()
+} while (array.length>0 && maybeTrue())
+return array
 }
 
   do {
