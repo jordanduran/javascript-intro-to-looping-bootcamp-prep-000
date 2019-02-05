@@ -18,7 +18,7 @@ function whileLoop(n) {
     return "done";
   }
 
-function doWhileLoop(array) {
+function doWhileLoop(num) {
   function incrementVariable() {
   i = i + 1;
   return console.log("I run once regardless.");
