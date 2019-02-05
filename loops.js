@@ -18,9 +18,8 @@ function whileLoop(n) {
     return "done";
   }
 
-function doWhileLoop(num) {
+function doWhileLoop(array) {
   function maybeTrue() {
-    console.log("I run once regardless.");
     return Math.random() >= 0.5
   }
 
