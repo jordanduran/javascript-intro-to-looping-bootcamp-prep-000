@@ -19,9 +19,10 @@ function whileLoop(n) {
   }
 
 function doWhileLoop(num) {
-  function incrementVariable() {
-    return Math.random() >= 0.5
-  }
+function incrementVariable() {
+  i = i + 1;
+  console.log("I run once regardless.");
+}
 
   do {
     array.pop();
