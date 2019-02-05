@@ -19,12 +19,12 @@ function whileLoop(n) {
   }
 
 function doWhileLoop(array) {
-  function maybeTrue() {
-    return Math.random() >= 0.5
-  }
-
-  do {
-    array.pop();
-  } while (array.length > -1 && maybeTrue());
-    return array;
+  function incrementVariable() {
+  i = i + 1;
+  return console.log("I run once regardless.");
 }
+}
+
+do {
+  console.log("doo-bee-doo-bee-doo");
+} while (incrementVariable() < 5);
