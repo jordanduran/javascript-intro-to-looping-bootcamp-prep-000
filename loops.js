@@ -20,6 +20,7 @@ function whileLoop(n) {
 
 function doWhileLoop(num) {
   function maybeTrue() {
+    console.log("I run once regardless.");
     return Math.random() >= 0.5
   }
 
