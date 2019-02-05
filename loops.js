@@ -23,8 +23,9 @@ var i = 0;
 function incrementVariable() {
   i = i + 1;
   console.log("I run once regardless.");
+  return 
   }
-    return i;
+
 
 do {
   console.log("doo-bee-doo-bee-doo");
